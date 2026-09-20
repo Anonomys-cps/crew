@@ -195,16 +195,16 @@ header p {
 /* ==================== */
 
 .cards {
-    width: min(94%, 1000px);
+    width: min(94%, 1150px);
 
     margin: auto;
 
     display: grid;
 
     grid-template-columns:
-        repeat(3, 1fr);
+        repeat(4, 1fr);
 
-    gap: 20px;
+    gap: 18px;
 }
 
 
@@ -246,6 +246,10 @@ header p {
 
 .card:nth-child(3) {
     animation-delay: .19s;
+}
+
+.card:nth-child(4) {
+    animation-delay: .26s;
 }
 
 @keyframes appear {
@@ -449,7 +453,7 @@ footer {
         width: 92%;
 
         grid-template-columns:
-            repeat(3, 1fr);
+            repeat(2, 1fr);
 
         gap: 12px;
     }
@@ -508,9 +512,9 @@ footer {
         width: 92%;
 
         grid-template-columns:
-            repeat(3, 1fr);
+            repeat(2, 1fr);
 
-        gap: 7px;
+        gap: 8px;
     }
 
     .card {
@@ -529,11 +533,11 @@ footer {
     }
 
     .info h2 {
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .info p {
-        font-size: 8px;
+        font-size: 9px;
     }
 
     footer {
@@ -666,6 +670,32 @@ footer {
         <div class="info">
 
             <h2>Devin</h2>
+
+            <p>
+                Profil ansehen →
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- BILAL -->
+
+    <div
+        class="card"
+        data-name="bilal"
+        onclick="location.href='bilal.html'"
+    >
+
+        <img
+            src="bilal.png"
+            alt="Bilal"
+        >
+
+        <div class="info">
+
+            <h2>Bilal</h2>
 
             <p>
                 Profil ansehen →
